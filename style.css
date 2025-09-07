@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 2px solid black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 50px;
+  background-color: rgb(58, 57, 57);
+  border: 5px solid rgb(63, 63, 62);
+}
+
+/* Common style for every section */
+.hehe {
+  flex: 1;
+  background-color: rgb(196, 232, 193);
+  display: flex;
+}
+
+/* First */
+.first .part {
+  flex: 1;
+  display: flex;
+}
+
+.first .box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.first .box1 {
+  flex: 1;
+  display: flex;
+}
+
+.first .box2 {
+  flex: 1;
+}
+
+/* Second */
+.second .part1 {
+  flex: 9;
+}
+
+.second .part2 {
+  flex: 11;
+  display: flex;
+  flex-direction: column;
+}
+
+.second .box {
+  flex: 1;
+  display: flex;
+}
+
+.second .box1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second .box2 {
+  flex: 1;
+  display: flex;
+}
+
+.second .box3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Third */
+.third .part1 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.third .part1 .box {
+  flex: 1;
+  display: flex;
+}
+
+.third .box1 {
+  flex: 1;
+}
+
+.third .part2 {
+  flex: 8;
+  display: flex;
+}
+
+.third .part2 .box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.third .part2 .box1 {
+  flex: 1;
+  display: flex;
+}
+
+.third .part2 .box2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.third .part2 .box3 {
+  flex: 1;
+  display: flex;
+}
+
+.third .part2 .box4 {
+  flex: 1;
+}
+
+/* Fourth */
+.fourth .part {
+  flex: 1;
+  display: flex;
+}
+
+/* Colors */
+.box,
+.box1,
+.box2,
+.box3,
+.box4,
+.part {
+  outline: 2px solid black;
+}
+
+/* FIRST  */
+.first .part:nth-child(1) .box:nth-child(1) {
+  background: #ffadad;
+}
+.first .part:nth-child(1) .box:nth-child(2) {
+  background: #ffd6a5;
+}
+.first .part:nth-child(1) .box:nth-child(3) {
+  background: #fdffb6;
+}
+
+.first .part:nth-child(1) .box:nth-child(3) .box1:nth-child(1) {
+  background: #caffbf;
+}
+.first .part:nth-child(1) .box:nth-child(3) .box1:nth-child(2) {
+  background: #9bf6ff;
+}
+
+.first
+  .part:nth-child(1)
+  .box:nth-child(3)
+  .box1:nth-child(1)
+  .box2:nth-child(1) {
+  background: #a0c4ff;
+}
+.first
+  .part:nth-child(1)
+  .box:nth-child(3)
+  .box1:nth-child(1)
+  .box2:nth-child(2) {
+  background: #bdb2ff;
+}
+.first
+  .part:nth-child(1)
+  .box:nth-child(3)
+  .box1:nth-child(1)
+  .box2:nth-child(3) {
+  background: #ffc6ff;
+}
+.first
+  .part:nth-child(1)
+  .box:nth-child(3)
+  .box1:nth-child(1)
+  .box2:nth-child(4) {
+  background: #fffffc;
+}
+
+.first .part:nth-child(2) .box:nth-child(1) {
+  background: #f4a261;
+}
+.first .part:nth-child(2) .box:nth-child(2) {
+  background: #e76f51;
+}
+
+/*  SECOND  */
+.second .part1 {
+  background: #2a9d8f;
+}
+.second .part2 {
+  background: #264653;
+}
+
+.second .part2 .box:nth-child(1) {
+  background: #ff006e;
+}
+.second .part2 .box:nth-child(2) {
+  background: #8338ec;
+}
+
+.second .part2 .box:nth-child(1) .box1:nth-child(1) {
+  background: #3a86ff;
+}
+.second .part2 .box:nth-child(1) .box1:nth-child(2) {
+  background: #ffbe0b;
+}
+
+.second .part2 .box:nth-child(1) .box1:nth-child(1) .box2:nth-child(1) {
+  background: #fb5607;
+}
+.second .part2 .box:nth-child(1) .box1:nth-child(1) .box2:nth-child(2) {
+  background: #ff006e;
+}
+
+.second
+  .part2
+  .box:nth-child(1)
+  .box1:nth-child(1)
+  .box2:nth-child(2)
+  .box3:nth-child(1) {
+  background: #bb109c;
+}
+.second
+  .part2
+  .box:nth-child(1)
+  .box1:nth-child(1)
+  .box2:nth-child(2)
+  .box3:nth-child(2) {
+  background: #3a86ff;
+}
+
+/* THIRD */
+.third .part1 .box:nth-child(1) {
+  background: #ff595e;
+}
+.third .part1 .box:nth-child(2) {
+  background: #ffca3a;
+}
+
+.third .part1 .box:nth-child(2) .box1:nth-child(1) {
+  background: #8ac926;
+}
+.third .part1 .box:nth-child(2) .box1:nth-child(2) {
+  background: #1982c4;
+}
+.third .part1 .box:nth-child(2) .box1:nth-child(3) {
+  background: #6a4c93;
+}
+
+.third .part2 .box:nth-child(1) {
+  background: #ffadad;
+}
+.third .part2 .box:nth-child(2) {
+  background: #ffd6a5;
+}
+
+.third .part2 .box:nth-child(2) .box1:nth-child(1) {
+  background: #fdffb6;
+}
+.third .part2 .box:nth-child(2) .box1:nth-child(2) {
+  background: #caffbf;
+}
+
+.third .part2 .box:nth-child(2) .box1:nth-child(1) .box2:nth-child(1) {
+  background: #9bf6ff;
+}
+.third .part2 .box:nth-child(2) .box1:nth-child(1) .box2:nth-child(2) {
+  background: #a0c4ff;
+}
+.third .part2 .box:nth-child(2) .box1:nth-child(1) .box2:nth-child(3) {
+  background: #bdb2ff;
+}
+.third .part2 .box:nth-child(2) .box1:nth-child(1) .box2:nth-child(4) {
+  background: #ffc6ff;
+}
+
+.third
+  .part2
+  .box:nth-child(2)
+  .box1:nth-child(1)
+  .box2:nth-child(2)
+  .box3:nth-child(1) {
+  background: #fffffc;
+}
+.third
+  .part2
+  .box:nth-child(2)
+  .box1:nth-child(1)
+  .box2:nth-child(2)
+  .box3:nth-child(2) {
+  background: #f4a261;
+}
+
+.third
+  .part2
+  .box:nth-child(2)
+  .box1:nth-child(1)
+  .box2:nth-child(2)
+  .box3:nth-child(2)
+  .box4:nth-child(1) {
+  background: #e76f51;
+}
+.third
+  .part2
+  .box:nth-child(2)
+  .box1:nth-child(1)
+  .box2:nth-child(2)
+  .box3:nth-child(2)
+  .box4:nth-child(2) {
+  background: #2a9d8f;
+}
+
+/* FOURTH */
+.fourth .part:nth-child(1) {
+  background: #264653;
+}
+.fourth .part:nth-child(2) {
+  background: #ff006e;
+}
+.fourth .part:nth-child(3) {
+  background: #8338ec;
+}
+.fourth .part:nth-child(4) {
+  background: #3a86ff;
+}
+
+/* FIFTH */
+.hehe:nth-child(5) {
+  background: #ffbe0b;
+}

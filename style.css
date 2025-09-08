@@ -12,6 +12,9 @@
   padding: 50px;
   background-color: rgb(58, 57, 57);
   border: 5px solid rgb(63, 63, 62);
+  &.main:hover{
+    border: 5px solid rgb(64, 64, 90);
+  }
 }
 
 /* Common style for every section */
@@ -204,7 +207,7 @@
   background: #ff006e;
 }
 .second .part2 .box:nth-child(2) {
-  background: #8338ec;
+  background: #a776ed;
 }
 
 .second .part2 .box:nth-child(1) .box1:nth-child(1) {
@@ -257,7 +260,7 @@
 }
 
 .third .part2 .box:nth-child(1) {
-  background: #ffadad;
+  background: #e8bfbf;
 }
 .third .part2 .box:nth-child(2) {
   background: #ffd6a5;
